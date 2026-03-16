@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Alt Carbon MRV Ops Copilot</title>
+    <meta
+      name="description"
+      content="Editorial demo dashboard for Alt Carbon's MRV and field operations workflow."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <header class="global-header">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div>
+            <p class="eyebrow">Alt Carbon Internal Demo</p>
+            <h1 class="brand-title">alt carbon</h1>
+          </div>
+        </div>
+        <div class="header-actions">
+          <span class="status-pill">Verifier-ready evidence in one workflow</span>
+          <button class="button violet" type="button" data-action="jump-audit">
+            Remove CO2
+          </button>
+        </div>
+      </header>
+      <nav class="route-nav" id="routeNav" aria-label="Primary"></nav>
+      <main id="app"></main>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
